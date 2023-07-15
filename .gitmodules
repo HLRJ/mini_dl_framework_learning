@@ -1,0 +1,17 @@
+[submodule "extern/pybind11"]
+	path = extern/pybind11
+	url = ../../pybind/pybind11
+	branch = stable
+[submodule "extern/xtensor"]
+	path = extern/xtensor
+	url = ../../xtensor-stack/xtensor
+	branch = stable
+[submodule "extern/xtensor-python"]
+	path = extern/xtensor-python
+	url = ../../xtensor-stack/xtensor-python
+[submodule "extern/xtensor-blas"]
+	path = extern/xtensor-blas
+	url = ../../xtensor-stack/xtensor-blas
+[submodule "extern/xtl"]
+	path = extern/xtl
+	url = ../../xtensor-stack/xtl
