@@ -32,7 +32,7 @@ git submodule update
 │   ├── xtensor-python
 │   └── xtl
 ├── notes
-│   └── install.md
+│   
 └── README.md
 
 ```
