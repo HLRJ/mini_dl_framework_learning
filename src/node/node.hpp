@@ -1,6 +1,6 @@
 #ifndef NODE
 #define NODE
-
+#include <set>
 #include "xtensor/xarray.hpp"
 #include "../datatype.h"
 
@@ -75,6 +75,7 @@ class __CAL_NODE__{
 public:
     std::vector<__DATA_NODE__<T>*> pre_node;
     __DATA_NODE__<T>* back_node;
+    std::set<__DATA_NODE__<T>*>if_forward;
 
     __CAL_NODE__(){
         this->back_node = nullptr;
@@ -91,6 +92,7 @@ public:
 
     virtual void ZeroGrad(){}
     virtual void UpdatePara(T eta){}
+
 };
 
 #endif
