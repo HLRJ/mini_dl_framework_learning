@@ -2,12 +2,13 @@
 // Created by zhenxiang on 23-7-16.
 //
 #include <iostream>
-#include "../extern/xtensor/include/xtensor/xarray.hpp"
-#include "../extern/xtensor/include/xtensor/xio.hpp"
+#include "xtensor/xarray.hpp"
+#include "xtensor/xio.hpp"
+#include "node/node.hpp"
 
 using namespace xt;
 
 int main(){
-    auto a = xarray<float>({1,2,3});
-    std::cout << a << std::endl;
+    INT64 a = 0;
+    std::cout << sizeof (a)<< std::endl;
 }

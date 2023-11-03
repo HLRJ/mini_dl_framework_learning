@@ -8,6 +8,7 @@ include_directories(
         ${CMAKE_SOURCE_DIR}/../extern/xtensor-blas/include
         ${CMAKE_SOURCE_DIR}/../extern/xtl/include
         ${CMAKE_SOURCE_DIR}/../extern/xtensor-python/include
+        ${CMAKE_SOURCE_DIR}/../src
 
 )
 
